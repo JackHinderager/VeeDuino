@@ -22,3 +22,9 @@ GM 3-Bar MAP sensor
 Monochrome OLED 128X64 1.3 inch
 
 - This fits as a good replacement of the clock module in the dash, I sacrificed the clock as my stereo has one
+
+## Compile and Upload
+
+'''arduino-cli compile --fqbn arduino:avr:uno VeeDuino'''
+
+'''arduino-cli upload -p /dev/ttyUSB0 --fqbn arduino:avr:uno VeeDuino'''
