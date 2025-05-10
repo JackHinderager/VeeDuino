@@ -7,7 +7,7 @@ Everything here was purchased on Aliexpress
 
 Arduino Uno Clone
 
-- Failure rate is high for these clones, it may be a good idea to use a legit Arduino
+- Failure rate is high for these clones, it may be a good idea to use a real Arduino
 
 Type K thermocouple and MAX6675 thermocouple module
 
@@ -22,6 +22,11 @@ GM 3-Bar MAP sensor
 Monochrome OLED 128X64 1.3 inch (SH1106)
 
 - This fits as a good replacement of the clock module in the dash, I sacrificed the clock as my stereo has one
+
+## TO DO
+
+- Improve tachometer algorithm, it is somewhat accurate but has issues with missing peaks in higher engine speeds, leading to a reported RPM of some integer multiple of the physical value
+- Improve OLED communication, the current hack fix is to reset the display periodically to prevent persistent artifacts and freezing
 
 ## Compile and Upload
 
